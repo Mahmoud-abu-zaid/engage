@@ -1,0 +1,839 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    background-image: url(./img/img-sheet1/agency-2.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text-center{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-center2{
+    font-size:25px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.button1-center-sheet1{
+    width:130px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin:5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size:17px;
+}
+.button2-center-sheet1{
+    width:130px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(43, 116, 252);
+    color: aliceblue;
+    margin:5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size:17px;
+}
+.button1-center-sheet1:hover{
+    transition: 0.4s;
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+}
+.button2-center-sheet1:hover{
+    transition: 0.7s;
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.26);
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 7px;
+}
+.navpar{
+    display: flex;
+   align-items: center;
+   list-style: none;
+text-transform: uppercase;
+padding: 10 0;
+}
+li a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li a:hover{
+    transition: 0.4s;
+    color:rgb(70, 135, 255) ;
+}
+.img-navper{
+    width: 150px;
+    height:40px;
+}
+.home{
+    color:  rgb(64, 128, 245);
+}
+.home:hover{
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+
+}
+.button-navper{
+    width: 90px;
+    height: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size:16px;
+    border-radius: 40px;
+    border: none;
+    text-transform: uppercase;
+}
+.button-navper:hover{
+    transition: 0.4s;
+    background-color: rgb(43, 116, 252);
+    color: aliceblue;
+}
+.sheet2{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons1{
+    font-size: 25px;
+  padding-left: 15px;
+    color: #333333;
+}
+.t1{
+    display: inline;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+text-align: center;
+}
+.t2{
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.692);
+}
+.sheet3{
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+}
+.text-sheet3-1{
+    font-size: 45px;
+    padding: 0px 20px 40px 20px;
+    padding-top:0px;
+}
+.text-sheet3-2{
+
+    padding: 0 10px 25px 10px;
+    font-size: 23px;
+}
+.img-sheet3{
+    padding: 25px 5px;
+    width: 350px;
+    height: 350px;
+}
+.text-sheet3{
+    padding: 40px 0px;
+}
+.button-sheet3{
+    width: 160px;
+    height: 70px;
+    border-radius: 40px;
+    font-size: 18px;
+    background-color: rgb(43, 116, 252);
+    border: none;
+    color: rgb(255, 255, 255);  
+}
+.button-sheet3:hover{
+    transition: 0.4s;
+    background-color: rgba(54, 54, 54, 0.671);
+}
+.bt-sheet3{
+    padding-top: 50px;
+}
+.sheet4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 350px;
+ text-align: center;
+ background-color: rgb(27, 27, 27);
+ 
+}
+.icons-4{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(27, 27, 27);
+}
+.icons4{
+   font-size: 70px;
+    color: #3065f7;
+}
+.t-sheet4{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(146, 146, 146);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 40px;
+}
+.t2-sheet4{
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(235, 234, 234);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sheet5{
+    background-color: rgb(223, 223, 223);
+}
+.sheet-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-size: 20px;
+        height: 400px;
+
+}
+.title-sheet5{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 37px;
+    height: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content-sheet5{
+    padding:10px 10px;
+    }
+.cont{
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(236, 236, 236);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+h5{
+    padding: 10px;
+    width: 120px;
+    font-size: 20px;
+}
+h5:hover{
+    color:rgb(43, 116, 252); 
+    transition: 0.3s;
+}
+.content5{
+    padding: 10px;
+    font-size: 16px;
+}
+.icons5{
+    font-size: 13px;
+    padding-bottom:15px ;
+}
+.read-more{
+    display: inline;
+    padding: 10px;
+    padding-top:5px ;
+    font-size: 12px;
+    width: 80px;
+}
+.read-more:hover{
+    color:rgb(43, 116, 252); 
+    transition: 0.3s;
+}
+.sheet6{
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.img6{
+    padding:0px 20px;
+    width: 140px;
+    height: 50px; 
+}
+.sheet7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 350px;
+    background-color:rgb(4, 89, 248); ;
+}
+.text-sh7{
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text2-sh7{
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button-sh7{
+    border-radius: 40px;
+    border: solid 1px rgb(255, 255, 255);
+    width: 130px;
+    height: 50px;
+    color: #ffffff;
+background-color: rgba(0, 0, 0, 0);
+}
+.button-sh7:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    transition: 0.5s;
+}
+.text-sheet8{
+    height: 350px;
+}
+.text-sheet8{
+    display: flex;
+    justify-content: center;
+    background-color: #000000dc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-8{
+    padding: 40px;
+    width: 160px;
+}
+.text-t8{
+    padding: 50px;
+}
+.text8{
+    padding: 20px 0px;
+    color: #ffffff;
+    font-size: 17px;
+    width: 140px;
+}
+.t9{
+    color: #7e7e7e; 
+    width: 160px;
+    font-size: 14px;
+    display: inline;
+}
+.t-9{
+    color: #7e7e7e; 
+    width: 160px;
+    font-size: 14px;
+}
+.t8{
+    color: #a7a7a7; 
+    padding: 3px;
+    font-size: 13px;
+}
+.t-8{
+    width: 50px;
+    color: #a7a7a7; 
+    padding: 3px;
+    font-size: 13px; 
+    display: inline;
+}
+
+.t8:hover{
+    color: #e2e2e2; 
+transition: 0.3s;
+}
+.t-8:hover{
+    color: #e2e2e2; 
+transition: 0.3s;
+}
+.icons8{
+    color:#999999;
+    font-size: 19px;
+    padding: 3px;
+}
+.img9{
+    width: 36px;
+    height: 31px;
+    padding: 10px;
+}
+.sheet-t9{
+    display: flex;
+    justify-content:space-around;
+    padding: 15px;
+    align-items: center;
+    background-color: #181818;
+}
+.text9{
+    color: #797979;
+    font-size: 18px;
+}
+.img10{
+    width: 26px;
+    height: 26px;
+    padding: 10px;
+}
+.img11{
+    width: 35px;
+    height: 27px;
+    padding: 10px;
+}
+.img12{
+    width: 33px;
+    height: 29px;
+    padding: 10px;
+}
+@media  (max-width: 1089px){
+    .img-sheet3{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media  (max-width: 1033px){
+    .img-sheet3{
+        width: 300px;
+        height: 300px;
+    }
+    .t-sheet4{
+        font-size: 25px;
+    }
+    .cont{
+        width: 270px;
+        padding: 10px;
+    }
+    .text-t8{
+        width: 150px;
+       
+    }
+}
+@media  (max-width: 955px){
+    .img-sheet3{
+        width: 250px;
+        height: 250px;
+    }
+    .t1{
+        font-size: 18px;
+    }
+    .t2{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    .content5{
+        font-size: 14px;
+    }
+    .cont{
+        width: 250px;
+    }
+    .text-8{
+        padding: 50px 10px;
+    }
+    .img6{
+        width: 85px;
+        height: 35px;
+    }
+}
+@media  (max-width: 888px){
+    .title-sheet5{
+        font-size:25px ;
+    }
+    .sheet-5{
+        height: 300px;
+    }
+    .cont{
+        width: 200px;
+        height: 130px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    .content5{
+        font-size: 12px;
+    }
+    .read-more{
+        font-size: 11px;
+    }
+    .sheet3{
+        height: 750px;
+    }
+    .icons-4{
+        height: 170px;
+    }
+    .icons4{
+        font-size: 55px;
+    }
+    .sheet4{
+        height: 300px;
+    }
+    .t-sheet4{
+        font-size: 20px;
+    }
+    .t2-sheet4{
+        font-size: 30px;
+    }
+
+}
+@media  (max-width: 888px){
+    .img-sheet3{
+        width: 200px;
+        height: 200px;
+    }
+    .img-navper{
+        width: 140px;
+        height: 40px;
+    }
+    .navpar{
+        font-size: 14px;
+    }
+    .button-navper{
+        width: 80px;
+        height: 35px;
+        font-size:14px ;
+    }
+}
+@media  (max-width:757px){
+    .img-navper{
+        width: 110px;
+        height: 30px;
+    }
+    .navpar{
+        font-size: 12px;
+    }
+    .button-navper{
+        width: 70px;
+        height: 30px;
+        font-size:12px ;
+    }
+  .text-center{
+    font-size: 55px;
+  }
+  .text-center2{
+    font-size:20px
+  }
+  .button1-center-sheet1{
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+  }
+  .button2-center-sheet1{
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+  }
+  .sheet3{
+    height: 660px;
+  }
+  .t1{
+    font-size: 16px;
+  }
+  .t2{
+    font-size: 13px;
+  }
+  .icons1{
+    font-size: 20px;
+  }
+  .text-sheet3-1{
+    font-size: 35px;
+  }
+  .text-sheet3-2{
+    font-size: 20px;
+  }
+  .button-sheet3{
+    width: 150px;
+    height: 65px;
+  }
+  .title-sheet5{
+    font-size: 22px;
+  }
+  h5{
+    font-size: 13px;
+  }
+  .content5{
+    font-size: 11px;
+  }
+  .cont{
+    width: 170px;
+    height: 140px;
+  }
+  .read-more{
+    font-size: 10px;
+  }
+  .icons5{
+    font-size: 12px;
+  }
+.text8{
+    font-size: 13px;
+}
+.icons8{
+    font-size: 16px;
+}
+.text8{
+    padding:10px 10px;
+    width: 120px;
+}
+.text-8{
+    padding: 15px 5px;
+ 
+}
+.text-t8{
+    padding: 15px 5px;
+}
+.text-sheet8{
+    height: 300px;
+}
+}
+@media  (max-width:658px){
+    .img-navper{
+        width: 90px;
+        height: 27px;
+    }
+    .navpar{
+        font-size: 10px;
+    }
+    .button-navper{
+        width: 60px;
+        height: 27px;
+        font-size:10px ;
+    }
+    .text-center{
+        font-size: 45px;
+      }
+      .text-center2{
+        font-size:17px
+      }
+      .button1-center-sheet1{
+        width: 80px;
+        height: 45px;
+        font-size: 12px;
+      }
+      .button2-center-sheet1{
+        width: 80px;
+        height: 45px;
+        font-size: 12px;
+      }
+      .sheet2{
+        display: inline;
+        text-align: center;
+       
+      }
+      .text-sheet2{
+        padding: 15px 15px;
+      }
+      .t1{
+        font-size: 22px;
+      }
+      .t2{
+        font-size: 17px;
+      }
+      .icons1{
+        font-size: 27px;
+      }
+      .sheet3{
+        display:inline;
+
+    }
+    .text-sheet3{
+        background-color: #f1f1f1;
+
+    }
+    .img-sheet3{
+        width: 400px;
+        height: 400px;
+
+    }
+    .header{
+        height: 700px;
+    }
+    .sh5{
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    }
+    .sheet-5{
+        display: inline;
+    }
+    .cont{
+        width: 400px;
+        height: 150px;
+
+    }
+    .title-sheet5{
+    
+        padding-top: 30px;
+        padding-bottom: 70px;
+
+
+        font-size: 35px;
+        }
+        h5{
+            font-size: 20px;
+        }
+        .content5{
+            font-size: 15px;
+        }
+        .read-more{
+            font-size: 11px;
+        }
+        .sheet6{
+            padding: 20px;
+            display: inline;
+            text-align: center;
+            flex-wrap: nowrap;
+        }
+        .img6{
+            padding: 40px;
+            width: 160px;
+            height: 50px;
+        }
+        .sheet8{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(./img/img-sheet8/Untitled.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            width: 100%;
+        }
+        .text-sheet8{
+            display: inline;
+            height: 1150px;
+            width: 200px;
+            background-color: #000000b7;
+            width: 100%;
+            text-align: start;
+            padding: 40px;
+        }
+    .text8{
+        font-size: 22px;
+        text-align: start;
+        width: 300px;
+        padding: 20px;
+    }
+       .t9{
+        font-size: 19px;
+        text-align: start;
+
+       }
+     
+       .t-9{
+        font-size: 19px;
+        text-align: start;
+
+       }
+       .t{
+        width: 150px;
+       }
+        .t8{
+        font-size: 19px;
+        text-align: start;
+       }
+       .text9{
+        font-size: 10px;
+       }
+       .img10{
+        width: 20px;
+        height: 21px;
+       }
+       .img11{
+        width: 30px;
+        height: 22px;
+       }
+       .img9{
+        width: 27px;
+        height: 26px;
+       }
+       .img12{
+        width: 24px;
+        height: 24px;
+       }
+
+    }
+    @media  (max-width:581px){
+        .navpar{
+            font-size: 9px;
+            padding: 0px ;
+        }
+        li a{
+            padding: 0px 10px;
+        }
+        .button-navper{
+            width: 50px;
+            height: 27px;
+            font-size:9px ;
+        }
+      .header{
+        height: 600px;
+      }
+        .text-center{
+            font-size: 45px;
+          }
+          .text-center2{
+            font-size:17px
+          }
+          .img-sheet3{
+            height: 280px;
+            width: 280px;
+          }
+          .title-sheet5{
+            padding-top: 30px;
+            padding-bottom: 70px;
+          }
+            .cont{
+                width: 320px;
+                height: 130px;
+            }
+            h5{
+                font-size: 18px;
+            }
+            .content5{
+                font-size: 13px;
+            }
+            .read-more{
+                font-size: 10px;
+            }
+        }
+        @media  (max-width:492px){
+            .img-navper{
+                width: 80px;
+                height: 25px;
+            }
+            li a{
+                padding: 0px 4px;
+            }
+        }
